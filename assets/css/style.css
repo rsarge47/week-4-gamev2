@@ -1,0 +1,36 @@
+h3 {
+    font-weight: bold;
+    border-style: dashed;
+    border-color: rgb(127, 197, 224);
+    border-width: 4px;
+    font-size: 2em;
+    padding: 10px;
+}
+.avatars {
+    text-align: center;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    background-color: rgb(213, 233, 142);
+}
+.offense {
+    padding: 20px;
+    text-align: center;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    background-color: rgb(139, 216, 139);
+}
+.nemesis {
+    float: left;
+    padding: 20px;
+    text-align: center;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    background-color: rgb(218, 148, 131);
+}
+/* weird things started happeneing to my styles..
+first all the image elements were staying inside their border or div containers
+then without changing my style.css they started overflowing out of their containers
+I believe this happened when I was playing around with column divs in the HTML */
